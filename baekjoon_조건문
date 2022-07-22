@@ -1,0 +1,8 @@
+#조건문 #1 두 수 비교하기 1330
+A,B = map(int,input().split())     #a,b 를 map 함수를 이용해 각각 정수(int)로 분리해서 input()으로 입력을 받겠다.
+if A > B:
+    print(">")
+elif A < B:
+    print("<")
+else:
+    print("==")                    # '='으로 하지 않게 조심하자!!
